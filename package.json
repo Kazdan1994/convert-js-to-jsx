@@ -1,0 +1,15 @@
+{
+  "name": "convert-js-to-jsx",
+  "version": "1.0.0",
+  "description": "Convert .js file which contains jsx to .jsx",
+  "main": "lib/index.js",
+  "repository": "git@github.com:Kazdan1994/convert-js-to-jsx.git",
+  "author": "arthur.jacquemin <arthurjacquemin2@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
