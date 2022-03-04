@@ -1,0 +1,18 @@
+{
+  "presets": [
+    "es2015",
+    "react"
+  ],
+  "plugins": [
+    "transform-es2015-spread",
+    "transform-object-rest-spread",
+    [
+      "./node_modules/babel-plugin-jsx-import/src/index.js",
+      {
+        "identifier": "Preact",
+        "moduleName": "preact"
+      }
+    ],
+    ["transform-react-jsx", {"pragma": "Preact.h"}]
+  ]
+}
